@@ -20,4 +20,12 @@
 
 ## Запуск кода
 Выполнить команду:
-`pytest --language=es test_items.py`
+`pytest --language=<language> --browser=<browser> test_items.py`, где
+browser - Браузер, в котором будут выполняться тесты. На выбор:
+Chrome
+Firefox
+language - Язык тестового браузера. На выбор:
+en
+ru
+es
+fr
